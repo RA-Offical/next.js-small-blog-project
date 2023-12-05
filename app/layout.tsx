@@ -7,8 +7,8 @@ import ProfilePic from "./components/ProfilePic";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Blog",
-	description: "Blog website built with Next.js",
+	title: "Rashid Ameer",
+	description: "Created by Rashid Ameer",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

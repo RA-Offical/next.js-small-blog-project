@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Posts from "./components/Posts";
 
 export default function Home() {
 	return (
@@ -9,6 +9,8 @@ export default function Home() {
 					I'm <span className="font-bold">Rashid Ameer</span>
 				</span>
 			</p>
+
+			<Posts />
 		</main>
 	);
 }
