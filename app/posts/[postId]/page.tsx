@@ -11,6 +11,16 @@ type Props = {
 	};
 };
 
+export function generateStaticParams() {
+	const posts = getSortedPostsData();
+
+	return posts.map((post) => {
+		return {
+			postId: post.id,
+		};
+	});
+}
+
 /**
  * Generates metadata for the page based on the postId.
  * @param {Props} props - The props object containing the postId.
